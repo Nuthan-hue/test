@@ -1,4 +1,5 @@
 print("tea")
+print("bin")
 import pymongo
 import csv
 from collections import Counter
@@ -19,7 +20,7 @@ def fun(filename):
     a=['1011','1110','1001','1010','1101','1100','1000']
     for i in a:
         if i in thres:
-            prit("nothing")
+            print("nothing")
             pass
         else:
             c[i]=0
