@@ -1,3 +1,4 @@
+print("tea")
 print("bin")
 import pymongo
 import csv
