@@ -18,6 +18,7 @@ def fun(filename):
     a=['1011','1110','1001','1010','1101','1100','1000']
     for i in a:
         if i in thres:
+            prit("nothing")
             pass
         else:
             c[i]=0
@@ -42,8 +43,5 @@ def f(filename):
                 else:
                     b=b+1
         print(a,b)
-
-
-
 c('original1.csv')
 f('original1.csv')
